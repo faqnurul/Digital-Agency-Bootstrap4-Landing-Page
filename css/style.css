@@ -1,0 +1,83 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Header Style*/
+header {
+  background: url("../img/da-img-1.jpg") no-repeat center center;
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  background-size: cover;
+}
+.bg-secondary{
+  background: #3d3f4c !important ;
+
+}
+.bg-progress{
+  background: #26B7A0 !important ;
+}
+.text-primary{
+  color: #26b7a0 !important ;
+}
+
+.da-home-page-text {
+  padding-top: 5rem;
+  color: #fff;
+}
+
+
+/*Projects Style*/
+.da-projects .da-project-1 {
+  position: relative;
+  min-height: 450px;
+  background-size: cover;
+  background-image: center center;
+}
+
+.da-projects .da-project-2 {
+  position: relative;
+  min-height: 450px;
+  background-size: cover;
+  background-image: center center;
+}
+
+/* Expertise Skills Style */
+.da-expertise .da-exp-skills {
+  padding: 70px 40px 60px 40px;
+}
+
+.da-expertise .progress-bar {
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+}
+
+.da-expertise .aos-animate {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+
+/*Common Style*/
+.da-section {
+  padding: 5rem 0;
+}
+.da-projects .da-project-1 {
+    position: relative;
+    min-height: 450px;
+    background-size: cover;
+    background-image: center center;
+}
+.da-team .carousel-indicators li {
+    background-color: #3d3f4c;
+}
+
+.da-team .carousel-indicators .active {
+    background-color: #26b7a0;
+}
